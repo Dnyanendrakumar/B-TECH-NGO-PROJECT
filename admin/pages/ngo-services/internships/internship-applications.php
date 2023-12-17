@@ -25,7 +25,7 @@
                 echo '<tr>';
                 echo '<td>' . $row['name'] . '</td>';
                 echo '<td>Email: ' . $row['email'] . '</br>Phone: ' . $row['phone'] . '</td>';
-                echo '<td>' . $row['internship_type'] . '</td>';
+                echo '<td>' . $row['document_type'] . '</td>';
                 echo '<td><a href="../resumes/' . $row['resume'] . '" target="_blank">View</a></td>';
                 echo '<td>';
 

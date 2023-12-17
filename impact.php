@@ -22,7 +22,7 @@ include_once "./includes/header.php";
                   <p><?= $aboutUsData['impact'] ?></p>
               </div>
               <div class="col-md-6 mv-img">
-                  <img src="assets/images/misin.jpg" alt="">
+                  <img src="assets/images/3.jpg" alt="">
               </div>
           </div>
       </div>

@@ -124,28 +124,28 @@ include_once "./includes/header.php";
     <div class="card">
       <img src="logo.png" alt="Card 1 Image">
       <h2>Founder & President</h2>
-      <p>This is the content of card 1.</p>
+      <p>Piyush Shah</p>
     </div>
 
     <!-- Card 2 -->
     <div class="card">
       <img src="logo.png" alt="Card 2 Image">
         <h2>Vice-President</h2>
-      <p>This is the content of card 2.</p>
+      <p>Hrishikesh Dahale</p>
     </div>
 
     <!-- Card 3 -->
     <div class="card">
       <img src="logo.png" alt="Card 3 Image">
       <h2>Secretary</h2>
-      <p>This is the content of card 3.</p>
+      <p>Neeraj Mahajan</p>
     </div>
 
     <!-- Card 4 -->
     <div class="card">
       <img src="logo.png" alt="Card 4 Image">
       <h2>Treasurer</h2>
-      <p>This is the content of card 4.</p>
+      <p>Karan Hazare</p>
     </div>
     
    
@@ -166,12 +166,12 @@ include_once "./includes/header.php";
                   <p><?= $aboutUsData['mission'] ?></p>
               </div>
               <div class="col-md-6 mv-img">
-                  <img src="assets/images/misin.jpg" alt="">
+                  <img src="assets/images/4.jpg" alt="">
               </div>
           </div>
           <div class="row vision">
               <div class="col-md-6 mv-img">
-                   <img src="assets/images/vision.jpg" alt="">
+                   <img src="assets/images/10.jpg" alt="">
               </div>
               <div class="col-md-6 mv-det">
                    <h1>Our Vision</h1>

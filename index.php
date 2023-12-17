@@ -23,7 +23,7 @@ include_once "./includes/header.php";
       display: flex;
       flex-direction: column;
       box-shadow: ;
-      max-width: 200px;
+      max-width: 300px;
       
     }
 
@@ -124,7 +124,7 @@ include_once "./includes/header.php";
                             <div class="animated bounceInDown slider-captions">
                                 <h1 class="slider-title"><?= $row['primaryText'] ?></h1>
                                 <p class="slider-text hidden-xs"><?= $row['secondaryText'] ?></p>
-                                <a href="donate_detail.php?id=<?= $row['campaign_id'] ?>" class="btn btn-success">Go To Details</a>
+                                <a href="upcoming-work.php?id=<?= $row['campaign_id'] ?>" class="btn btn-success">Go To Details</a>
                             </div>
                         </div>
                     </div>
@@ -185,28 +185,28 @@ include_once "./includes/header.php";
     <div class="card">
       <img src="logo.png" alt="Card 1 Image">
       <h2>Founder & President</h2>
-      <p>This is the content of card 1.</p>
+      <p>Piyush Shah</p>
     </div>
 
     <!-- Card 2 -->
     <div class="card">
       <img src="logo.png" alt="Card 2 Image">
         <h2>Vice-President</h2>
-      <p>This is the content of card 2.</p>
+      <p>Hrishikesh Dahale</p>
     </div>
 
     <!-- Card 3 -->
     <div class="card">
       <img src="logo.png" alt="Card 3 Image">
       <h2>Secretary</h2>
-      <p>This is the content of card 3.</p>
+      <p>Neeraj Mahajan</p>
     </div>
 
     <!-- Card 4 -->
     <div class="card">
       <img src="logo.png" alt="Card 4 Image">
       <h2>Treasurer</h2>
-      <p>This is the content of card 4.</p>
+      <p>Karan Hazare</p>
     </div>
     
    
@@ -334,32 +334,32 @@ include_once "./includes/header.php";
 <section>
 
 <div class="container">
-  <h1 style=" margin-left: 640px; padding:20px">Event Gallery<h1>
+  <h1 style=" margin-left: 450px; padding:20px">Event Gallery<h1>
 
 <div id="cardgallery">
 
   
 <!-- Card 1 -->
 <div class="gallery">
-  <img class="imggallery" src="./assets/images/common/image_01.jpg" alt="Card 1 Image">
+  <img class="imggallery" src="./assets/images/17.jpg" alt="Card 1 Image">
   
 </div>
 
 <!-- Card 2 -->
 <div class="gallery">
-  <img class="imggallery" src="./assets/images/common/image_02.jpg" alt="Card 2 Image">
+  <img class="imggallery" src="./assets/images/1.jpg" alt="Card 2 Image">
   
 </div>
 
 <!-- Card 3 -->
 <div class="gallery">
-  <img class="imggallery" src="./assets/images/common/image_03.jpg" alt="Card 3 Image">
+  <img class="imggallery" src="./assets/images/2.jpg" alt="Card 3 Image">
  
 </div>
 
 <!-- Card 4 -->
 <div class="gallery">
-  <img class="imggallery" src="./assets/images/common/image_04.jpg" alt="Card 4 Image">
+  <img class="imggallery" src="./assets/images/10.jpg" alt="Card 4 Image">
 
 </div>
 
@@ -367,7 +367,7 @@ include_once "./includes/header.php";
 </div>
 
 <div class="moregallery">
-   <a style="background-color: #04AA6D; color: black;" href="gallery.php" class="previous">See all event gallery</a>
+   <a style="background-color: #04AA6D; margin-right: 250px;color: black;" href="gallery.php" class="previous">See all event gallery</a>
    </div>
 
 

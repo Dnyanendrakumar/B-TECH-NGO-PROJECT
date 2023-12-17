@@ -50,7 +50,7 @@ if ($result->num_rows > 0) {
                             </div>
                             <div class="col-md-12">
                                 <label for="mail" class="form-label">Your Email</label>
-                                <input type="email" class="form-control" id="email" name="email"
+                                <input type="text" class="form-control" id="email" name="email"
                                     required>
                             </div>
                         </div>
